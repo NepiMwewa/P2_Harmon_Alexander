@@ -23,9 +23,9 @@ nav{
 
 .game_card{
 	border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
 
-  border-color: black;
+  border-color: #222323;
   background-color: #396073;
 
   width: 336px;
@@ -35,19 +35,22 @@ nav{
 
 .game_card_image{
   border-style: solid;
-  border-width: 2px;
-  border-color: black;
+  border-width: 0px 3px 3px 0px;
+  border-color: #222323;
 
   float: left;
 }
 .game_card_title{
   text-align: center;
+  font-size: 2rem;
 }
 .game_card_tag{
   text-align: center;
+  font-size: 1.5rem;
 }
 .game_card_tag_text{
 text-align: center;
+font-size: 1.5rem;
 }
 .game_card_desc{
 
