@@ -20,6 +20,9 @@ nav{
 #games_section h1{
   text-align: center;
 }
+#games_section figcaption{
+  display: none;
+}
 
 .game_card{
 	border-style: solid;
@@ -38,6 +41,8 @@ nav{
   border-width: 0px 3px 3px 0px;
   border-color: #222323;
 
+  height: 180px;
+
   float: left;
 }
 .game_card_title{
@@ -49,11 +54,32 @@ nav{
   font-size: 1.5rem;
 }
 .game_card_tag_text{
-text-align: center;
-font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 .game_card_desc{
+  float: left;
+}
+.game_price{
+  clear: left;
+  text-align: left;
 
+  font-size: 1.5rem;
+}
+.buy_now_button{
+  display: block;
+  text-align: right;
+
+  padding: 5px;
+
+  text-decoration: none;
+  border-style: solid;
+  border-width: 3px;
+
+}
+.buy_now_button:visited{
+  color: white;
+  text-decoration: none;
 }
 /*Start of Game Card styles*/
 
