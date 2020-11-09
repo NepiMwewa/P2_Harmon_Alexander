@@ -1,3 +1,7 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 body{
   color: #e3e2d8;
   background-color: #0b3840;
@@ -7,3 +11,49 @@ nav{
   background-color: #222323;
 }
 /*End of Navagation styles*/
+
+/*Start of Most Popular styles*/
+
+/*End of Most Popular styles*/
+
+/*Start of Game Card styles*/
+#games_section h1{
+  text-align: center;
+}
+
+.game_card{
+	border-style: solid;
+  border-width: 2px;
+
+  border-color: black;
+  background-color: #396073;
+
+  width: 336px;
+  height: 336px;
+  margin: 64px;
+}
+
+.game_card_image{
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+
+  float: left;
+}
+.game_card_title{
+  text-align: center;
+}
+.game_card_tag{
+  text-align: center;
+}
+.game_card_tag_text{
+text-align: center;
+}
+.game_card_desc{
+
+}
+/*Start of Game Card styles*/
+
+/*Start of Footer styles*/
+
+/*End of Footer styles*/
