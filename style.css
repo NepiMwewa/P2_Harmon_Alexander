@@ -31,8 +31,7 @@ nav{
   border-color: #222323;
   background-color: #396073;
 
-  width: 336px;
-  height: auto;
+  width: 22rem;
   margin: 64px;
 }
 
@@ -48,6 +47,7 @@ nav{
 .game_card_title{
   text-align: center;
   font-size: 2rem;
+  margin: 0.3rem 0px 0.3rem 0px;
 }
 .game_card_tag{
   text-align: center;
@@ -55,16 +55,18 @@ nav{
 }
 .game_card_tag_text{
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .game_card_desc{
   clear: both;
+
+  margin: 1rem .5rem .5rem .5rem;
 }
 .game_price{
   float: right;
 
-  margin: 0.5rem;
-  padding: 0.5rem;
+  margin: 0.3rem;
+  padding: 0.3rem;
 
   font-size: 1.5rem;
 }
