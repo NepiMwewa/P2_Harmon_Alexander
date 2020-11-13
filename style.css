@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 body{
+  font-family: arial, sans-serif;
   color: #e3e2d8;
   background-color: #0b3840;
 }
@@ -26,7 +27,9 @@ nav #current_page{
 }
 
 nav #current_page > h2{
-  font-size: 3rem;
+  font-size: 4.5rem;
+  font-family: monospace;
+
   text-align: center;
   position: relative;
   bottom: 3rem;
@@ -61,7 +64,9 @@ form fieldset{
   background-color: #0b3840;
 }
 form legend{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-family: monospace;
+
     background-color: #222323;
     border-radius: 30px 30px 0px 0px;
     padding: .5rem 3rem;
@@ -103,7 +108,9 @@ form figcaption{
 
 #previous_button,
 #next_button{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-family: monospace;
+
   padding: 0.8rem 2rem;
   color: #e3e2d8;
   background-color: #222323;
@@ -122,6 +129,7 @@ form figcaption{
   margin-top: 2rem;
 
   font-size: 3rem;
+  font-family: Elephant, sans-serif;
 
   background-color: #222323;
   border-radius: 30px;
@@ -185,7 +193,7 @@ form figcaption{
   margin: 1.2rem .5rem .5rem .5rem;
 }
 .game_price{
-  float: right;
+
 
   margin: 0.3rem;
   padding: 0.3rem;
@@ -193,12 +201,10 @@ form figcaption{
   font-size: 1.5rem;
 }
 .buy_now_button{
-  display: block;
 
-  width: 7rem;
 
   margin: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.75rem;
 
   font-size: 1.5rem;
 
@@ -212,6 +218,12 @@ form figcaption{
 }
 .buy_now_button:visited{
   text-decoration: none;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 /*Start of Game Card styles*/
 
