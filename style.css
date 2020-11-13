@@ -46,6 +46,58 @@ background: linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
 
 /*Start of Most Popular styles*/
 
+form{
+margin: 0px 1rem;
+}
+
+form fieldset{
+  text-align: center;
+  border-style: solid;
+
+  border-width: 0px;
+  background-color: #0b3840;
+}
+form legend{
+    font-size: 3rem;
+    background-color: #222323;
+    border-radius: 20px 20px 0px 0px;
+    padding: .5rem 3rem;
+}
+
+#showcase{
+  border-style: solid;
+  border-width: 4px;
+  border-bottom-width: 0px;
+  border-color: #222323;
+}
+
+#showcase img{
+  width: 100%;
+}
+
+form figcaption{
+  display: none;
+}
+
+#showcase_buttons{
+  background-color: #396073;
+  width: 100%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #222323;
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#previous_button,
+#next_button{
+  font-size: 2rem;
+  padding: 0.8rem 2rem;
+  color: #e3e2d8;
+  background-color: #222323;
+}
 /*End of Most Popular styles*/
 
 /*Start of Game Card styles*/
