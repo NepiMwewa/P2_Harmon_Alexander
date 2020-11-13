@@ -30,6 +30,8 @@ nav #current_page > h2{
   text-align: center;
   position: relative;
   bottom: 3rem;
+
+  text-shadow: 2px 2px 2px #396073;
 }
 
 .fade_down{
@@ -48,6 +50,7 @@ background: linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
 
 form{
 margin: 0px 1rem;
+
 }
 
 form fieldset{
@@ -60,15 +63,19 @@ form fieldset{
 form legend{
     font-size: 3rem;
     background-color: #222323;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
     padding: .5rem 3rem;
+
+    text-shadow: 2px 2px 2px #396073;
 }
 
 #showcase{
   border-style: solid;
-  border-width: 4px;
+  border-width: 5px;
   border-bottom-width: 0px;
   border-color: #222323;
+  -webkit-box-shadow: 2px 2px 8px 2px #222323;
+  box-shadow: 2px 2px 8px 2px #222323;
 }
 
 #showcase img{
@@ -84,12 +91,14 @@ form figcaption{
   background-color: #396073;
   width: 100%;
   border-style: solid;
-  border-width: 4px;
+  border-width: 5px;
   border-color: #222323;
 
   display: flex;
   justify-content: space-between;
 
+  -webkit-box-shadow: 2px 2px 8px 2px #222323;
+  box-shadow: 2px 2px 8px 2px #222323;
 }
 
 #previous_button,
@@ -98,6 +107,8 @@ form figcaption{
   padding: 0.8rem 2rem;
   color: #e3e2d8;
   background-color: #222323;
+
+  text-shadow: 2px 2px 2px #396073;
 }
 /*End of Most Popular styles*/
 
@@ -115,6 +126,10 @@ form figcaption{
   background-color: #222323;
   border-radius: 30px;
 
+  -webkit-box-shadow: 2px 2px 5px 1px #222323;
+  box-shadow: 2px 2px 5px 1px #222323;
+
+  text-shadow: 2px 2px 2px #396073;
 }
 
 #games_section figcaption{
@@ -123,10 +138,13 @@ form figcaption{
 
 .game_card{
 	border-style: solid;
-  border-width: 3px;
+  border-width: 5px;
 
   border-color: #222323;
   background-color: #396073;
+
+  -webkit-box-shadow: 2px 2px 8px 2px #222323;
+  box-shadow: 2px 2px 8px 2px #222323;
 
   width: 22rem;
   margin: 4rem auto;
@@ -134,21 +152,28 @@ form figcaption{
 
 .game_card_image{
   border-style: solid;
-  border-width: 0px 3px 3px 0px;
+  border-width: 0px 5px 5px 0px;
   border-color: #222323;
 
-  height: 183px;
+
 
   float: left;
+}
+.game_card_image img{
+  display: block;
 }
 .game_card_title{
   text-align: center;
   font-size: 2rem;
   margin: 0.3rem 0px 0.3rem 0px;
+
+  text-shadow: 2px 2px 2px #222323;
 }
 .game_card_tag{
   text-align: center;
   font-size: 1.5rem;
+
+  text-shadow: 1px 1px 2px #222323;
 }
 .game_card_tag_text{
   text-align: center;
@@ -157,7 +182,7 @@ form figcaption{
 .game_card_desc{
   clear: both;
 
-  margin: 1rem .5rem .5rem .5rem;
+  margin: 1.2rem .5rem .5rem .5rem;
 }
 .game_price{
   float: right;
@@ -181,6 +206,9 @@ form figcaption{
   background-color: #222323;
 
   text-decoration: none;
+
+  -webkit-box-shadow: 2px 2px 5px 1px #222323;
+  box-shadow: 2px 2px 5px 1px #222323;
 }
 .buy_now_button:visited{
   text-decoration: none;
@@ -205,7 +233,7 @@ footer{
 }
 footer>ul{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   list-style-type: none;
 }
 footer>ul>li{
