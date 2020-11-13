@@ -36,7 +36,7 @@ nav #current_page > h2{
 
 width: 100%;
 height: 6rem;
-background: rgb(11,56,64);
+background: #0b3840;
 background: -moz-linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
 background: -webkit-linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
 background: linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
@@ -49,9 +49,6 @@ background: linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
 /*End of Most Popular styles*/
 
 /*Start of Game Card styles*/
-#games_section{
-
-}
 #games_section h1{
   display: block;
   text-align: center;
@@ -138,5 +135,36 @@ background: linear-gradient(0deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
 /*Start of Game Card styles*/
 
 /*Start of Footer styles*/
+.fade_up{
+
+width: 100%;
+height: 6rem;
+background: #222323;
+background: -moz-linear-gradient(180deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+background: linear-gradient(180deg, rgba(11,56,64,1) 0%, rgba(34,35,35,1) 100%);
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  background-color: #222323;
+}
+footer>ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+footer>ul>li{
+
+  font-size: 1rem;
+  border-left: #e3e2d8 solid 2px;
+  border-right: #e3e2d8 solid 2px;
+  text-align: center;
+  color: #e3e2d8;
+  margin: 40px 2px 40px 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 /*End of Footer styles*/
